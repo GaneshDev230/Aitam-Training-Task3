@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.landing{
+    background: url("./img/pexels-bruna-fossile-183845208-28462495.jpg");
+    background-size:cover ;
+    background-position: center;
+    height: 100vh;
+    padding-top: 40vh;
+    
+}
+.landing h1{
+    text-align: center;
+    font-size:35px;
+    color: white;
+    padding-top: 250;
+    opacity: 0.6;
+}
+.landing p{
+    text-align: center;
+    font-size:20px;
+    color: white;
+    padding-top: 250;
+
+}
+button{
+    padding:10px 50px;
+    background-color: white;
+    color: black;
+    border:none;
+    cursor:pointer;
+    margin-top: 20px;
+    font-size: 20px;
+    font-size:20px;
+    margin-left:40%;
+}
