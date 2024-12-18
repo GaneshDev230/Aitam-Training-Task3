@@ -3,32 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.landing h1{
+    text-align: center;
+    font-size:60pxpxpx;
+    color: rgb(16, 14, 14);
+    padding-top: 250;
+    opacity: 1;
+}
 .landing{
-    background: url("./img/pexels-bruna-fossile-183845208-28462495.jpg");
-    background-size:cover ;
-    background-position: center;
+  
+    background: hwb(120 98% 1%) url("./img/pexels-bruna-fossile-183845208-28462495.jpg") no-repeat center/cover;
+
     height: 100vh;
     padding-top: 40vh;
     
 }
-.landing h1{
-    text-align: center;
-    font-size:35px;
-    color: white;
-    padding-top: 250;
-    opacity: 0.6;
-}
+
 .landing p{
     text-align: center;
     font-size:20px;
-    color: white;
+    color: rgb(233, 235, 235);
     padding-top: 250;
 
 }
 button{
     padding:10px 50px;
     background-color: white;
-    color: black;
+    color: rgb(158, 23, 127);
     border:none;
     cursor:pointer;
     margin-top: 20px;
@@ -36,3 +38,4 @@ button{
     font-size:20px;
     margin-left:40%;
 }
+
